@@ -1,0 +1,114 @@
+body {
+	background-image:
+		url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+	background-repeat: 100% no-repeat;
+	background-size: 100% auto;
+	height: 100%;
+}
+
+.fondo:hover {
+	background-color: #4bf5d9;
+	color: #000;
+}
+
+.trans {
+	opacity: 0.8;
+	color: #fff;
+}
+
+.trans:hover {
+	opacity: 0.9;
+	font-size: larger;
+	font-weight: 200;
+}
+
+h5 {
+	font-family: 'Pacifico', cursive;
+	font-family: 'Shantell Sans', cursive;
+	color: #fff;
+	text-shadow: #5ef0f2 3px 6px 4px;
+	text-align: center;
+	font-size: 90%;
+	font-weight: 80;
+}
+
+span {
+	font-family: 'Pacifico', cursive;
+	font-family: 'Shantell Sans', cursive;
+	color: #fff;
+	text-shadow: #5ef0f2 3px 6px 4px;
+	text-align: center;
+	font-size: 90%;
+	font-weight: 80;
+}
+
+h1, h3, h4, p {
+	font-family: 'Pacifico', cursive;
+	font-family: 'Shantell Sans', cursive;
+	color: #000;
+	text-shadow: #fff 3px 6px 4px;
+	text-align: center;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+.calendar {
+	border: 1px solid #ddd;
+	background-color: #DBF7FD;
+	padding: 0px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.calendar th {
+	background-color: #f2f2f2;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.calendar td {
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.calendar td:hover {
+	background-color: #f2f2f2;
+}
+
+.calendar .available {
+	background-color: #d4edda;
+	color: #155724;
+}
+
+.calendar .unavailable {
+	background-color: #f8d7da;
+	color: #721c24;
+}
+
+.calendar .selected {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.d-flex {
+	display: -ms-flexbox !important;
+	display: flex !important;
+	flex-direction: column;
+}
+
+.hour {
+	border: 1px solid #ddd;
+	padding: 0px;
+	padding-left: 76px;
+	padding-right: 60px;
+}
+
+.boton {
+	align-items: right;
+}
